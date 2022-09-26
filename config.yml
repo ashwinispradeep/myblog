@@ -1,0 +1,29 @@
+baseURL: https://ashwinipradeep.com/
+languageCode: en-us
+title: Ashwini Pradeep's Blog
+theme: "PaperMod"
+paginate: 5
+copyright: "&copy; 2022 Pradeep Loganathan. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+  International License."
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+enableGitInfo: true
+
+minify:
+  minifyOutput: true
+  minifyCSS: true
+  minifyJS: true
+  minifyHTML: true
+  minifyURLs: true
+  disableXML: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
